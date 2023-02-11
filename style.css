@@ -1,0 +1,83 @@
+/* Color and fonts */
+
+body { 
+	background: #F4EAD6;
+	color: #89715A; 
+	font-family: 'Lora', serif;
+	font-size: 17px; 
+	text-align: center;
+}
+
+h1{ 
+	color: #42403E;
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px,
+}
+
+h2{
+	color: #A87C52;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px; 
+	font-weight: bold;
+	letter-spacing : 6px
+}
+
+a {
+	text-decoration: none;
+	color: #B2A895;
+	font-weight: bold;	
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: black;
+}
+
+.img-circle {
+	border-radius: 75%;
+}
+
+.Photo { 
+	width: 300px;
+}
+
+#Matthieu {
+	width: 175px;
+}
+
+#Icons {
+	font-size: 50px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-blue {
+	background-color: #F4EAD6;
+	color: #89715A;
+	padding: 10px 15px;
+	border-radius: 4px;
+	transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+	background-color: #89715A;
+	color: white;
+}
+
+#introduction p {
+	margin-bottom: 40px; 
+}
